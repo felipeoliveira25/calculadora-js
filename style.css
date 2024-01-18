@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    background-color: rgb(32, 32, 32); 
+}
+
+h1{
+    margin-bottom: 10px;
+    color: #FFF;
+}
+
+.botao{
+    border-radius: 50%;
+    border: none;
+    padding: 17px;
+    cursor: pointer;
+    
+}
+
+
+
+.calculadora{
+    background-color: #000000;
+    border-top: 20px solid gray;
+    border-left: 10px solid gray;
+    border-right: 10px solid gray;
+    border-bottom: 20px solid gray;
+    border-radius: 15px;
+    height: 480px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 260px;
+    width: 70%;
+}
+
+
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;   
+}
+
+.mostra-resultado{
+    color: #FFF;
+    background-color: transparent;
+    border: none;
+    text-align: end;
+    margin-bottom: 50px;
+    font-size: 40px;
+    outline: none;
+    border: none;
+    margin-right: 15px; 
+    display: flex;
+    width: 100%;
+   
+}
+
+.operacoes{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    white-space: nowrap;
+}
+
+.acoes-calculadora{
+    display: flex;
+    align-items: start;
+    gap: 3px;
+    height: 52px;
+    
+}
+
+.operacoes-mat{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.numeros{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 210px;
+    right: 10px;
+    gap: 1px;
+    
+}
+
+.botao-ativo{
+    background-color: #d62a2a;
+    color: #000000;
+}
+
+#botao-limpar{
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.botao-acao{
+    background-color: #A8A8A8;
+}
+
+.botao-acao:hover{
+    background-color: #242424;
+    color: #FFF;
+}
+
+.botao-numero{
+    background-color: #333333;
+    color: #FFF;
+    padding-left: 22px;
+    padding-right: 22px;
+    
+}
+
+.botao-numero:hover{
+    background-color: #2240e9;
+}
+
+.botao-operacao{
+    background-color: #FE9700;
+    color: #FFF; 
+}
+.botao-operacao :active{
+    background-color: #FFF;
+    color: #000000;
+}
+
+.botao-operacao:hover{
+    background-color: #FFF;
+    color: #000000;
+}
+
+.botao-numero-zero{
+    background-color: #333333;
+    color: #FFF;
+    padding-left: 20px;
+    padding-right: 74px;
+    border-radius: 30px 30px;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
